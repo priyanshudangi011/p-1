@@ -1,0 +1,33 @@
+/* 
+ html,
+body {
+  scrollbar-width: none; 
+  overflow: hidden;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; 
+}  */
+
+/* Hide all page scrollbars */
+html,
+body {
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+display: none;
+}
+
+/* Hide anime cards scrollbar */
+.scrollbar-hide {
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+display: none;
+}
